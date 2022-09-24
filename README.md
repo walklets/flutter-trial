@@ -11,6 +11,9 @@ LC_ALL=en_US.UTF-8
 `docker-compose up --build`  
 (あらかじめDockerをインストールしておく必要があります)  
 
+### 閲覧  
+127.0.0.1:8080にアクセス  
+
 ## 備忘録
 ### 私が初めに試したこと  
 `flutter create app`  
