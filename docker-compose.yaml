@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  dart-server:
+    build: ./docker
+    image: dart-server
+    platform: linux/amd64
+    container_name: dart-docker
+    ports:
+      - "127.0.0.1:8080:${PORT}/tcp"
+    volumes:
+      - ./app:/workspace
+    command: bash -c "server/server.sh"
