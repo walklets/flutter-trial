@@ -11,8 +11,8 @@ LC_ALL=en_US.UTF-8
 `docker-compose up --build`  
 (あらかじめDockerをインストールしておく必要があります)  
 
-### 閲覧  
-127.0.0.1:8080にアクセス  
+### ブラウザで以下のURLにアクセス  
+127.0.0.1:8080  
 
 ## 備忘録
 ### 私が初めに試したこと  
@@ -27,9 +27,10 @@ LC_ALL=en_US.UTF-8
 ### flutterのチャンネルを調べる  
 `flutter channel`  
 
-### flutterの公式ドキュメント
-https://flutter.dev/docs/get-started
-
-### その他参考
-[Containerizing Flutter web apps with Docker](https://blog.logrocket.com/containerizing-flutter-web-apps-with-docker/)
+## 参考　　
+[公式Doc](https://flutter.dev/docs/get-started)  
+[【3.0対応】Flutter webをGithub PagesにデプロイするGithub Actions](https://zenn.dev/nekomimi_daimao/articles/26fd2e3b763191)  
+[Containerizing Flutter web apps with Docker](https://blog.logrocket.com/containerizing-flutter-web-apps-with-docker/)  
+[Flutter クロスプラットフォーム向け画像アップロード](https://www.grow-tag.com/flutter/flutter-picture-upload/)  
+[[Flutter]コピペで使える！ボタンのデザイン16種類をまとめました](https://qiita.com/coka__01/items/30716f42e4a909334c9f)  
 
