@@ -6,6 +6,8 @@ services:
     image: dart-server
     platform: linux/amd64
     container_name: dart-docker
+    # ports:
+    #   - "8080:${PORT}/tcp"
     ports:
       - "127.0.0.1:8080:${PORT}/tcp"
     volumes:

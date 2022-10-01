@@ -31,10 +31,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: ^0.8.4+11       # 追加
-  image_picker_web: ^2.1.1      # 追加
-  universal_platform: ^1.0.0+1  # 追加
-  flutter_dropzone: ^3.0.5      # 追加
+  image_picker: ^0.8.4+11         # 追加
+  image_picker_web: ^2.1.1        # 追加
+  universal_platform: ^1.0.0+1    # 追加
+  flutter_dropzone: ^3.0.5        # 追加
+  image: ^3.2.0                   # 追加
+  material: ^1.0.0+2              # 追加
+  heic_to_jpg: ^0.2.0             # 追加
+  shimmer: ^2.0.0                 # 追加
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

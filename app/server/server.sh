@@ -4,6 +4,8 @@
 flutter clean
 flutter build web
 
+PORT=8080
+
 echo "Starting server on port $PORT"
 
 # サーバを起動
